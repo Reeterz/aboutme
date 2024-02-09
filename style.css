@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo-div{
+    width: 100%;
+    min-height: 50px;
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+
+}
+#nav-div{
+    width: 100%;
+    min-height: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.lis{
+    margin-left: 5%;
+    list-style: none;
+    list-style-type: circle;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link:active{
+    text-decoration: underline;
+}
+#myself{
+    margin-left: 10px;
+}
+#about{
+    margin-top: 10px;
+    padding-left: 5%;
+}
+
+.b{
+    padding-top: 5px;
+    font-weight: bolder
+}
+.u{
+    text-decoration: underline;
+}
+.col{
+    background-color: green;
+}
+.ital{
+    font-style: italic;
+}
+#fig{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    width: 50%;
+    min-height: 50px;
+    display: flex;
+    margin-bottom: 10px;
+}
+#me{
+    display: flex;
+    min-height: 50px;
+    min-height: 20px;
+    border: solid 1px;
+}
+#me1{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#story{
+    text-align: right;
+}
+.bolder{
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+}
+#myhobbies{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    justify-content: space-between;
+}
+.figures{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+    justify-content: center;
+    margin-top: 10px;
+}
+.images{
+    width: 100%;
+    min-height: 200px;
+}
+.names{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#hobb{
+    margin-top: 10px;
+}
+.caption{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.par{
+    background-color: lightgray;
+}
+
+#colors{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.clr1{
+    width: 30%;
+    background-color: red;
+}
+.clr2{
+    background-color: green;
+    width: 30%;
+}
+.clr3{
+    background-color: blue;
+    width: 30%;
+}
+#lambor{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.lambo{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#friends{
+    margin-top: 10px;
+}
+.fr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: 20px;
+}
+.frd{
+    font-weight: bold;
+    margin-top: 5px;
+}
+#foot-div{
+    width: 100%;
+    min-height: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
